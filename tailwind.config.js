@@ -5,9 +5,9 @@ module.exports = {
 		screens: {
 			xs: '375px',
 			sm: '600px',
-			md: '900px',
+			md: '1024px',
 			lg: '1200px',
-			xl: '1536px',
+			xl: '1440px',
 		},
 		fontFamily: {
 			sans: ['Noto Sans Mono', 'Poppins', 'sans-serif'],
