@@ -13,49 +13,6 @@ const socialMediaLinks = {
 	display: true, // Set true to display this section, defaults to false
 };
 
-const softwareSkills = [
-	{
-		skillName: 'html-5',
-		fontAwesomeClassname: 'fab fa-html5',
-	},
-	{
-		skillName: 'css3',
-		fontAwesomeClassname: 'fab fa-css3-alt',
-	},
-	{
-		skillName: 'Bootstrap',
-		fontAwesomeClassname: 'fab fa-bootstrap',
-	},
-	{
-		skillName: 'JavaScript',
-		fontAwesomeClassname: 'fab fa-js',
-	},
-	{
-		skillName: 'Reactjs',
-		fontAwesomeClassname: 'fab fa-react',
-	},
-	{
-		skillName: 'Java',
-		fontAwesomeClassname: 'fab fa-java',
-	},
-	{
-		skillName: 'Nodejs',
-		fontAwesomeClassname: 'fab fa-node',
-	},
-	{
-		skillName: 'npm',
-		fontAwesomeClassname: 'fab fa-npm',
-	},
-	{
-		skillName: 'sql-database',
-		fontAwesomeClassname: 'fas fa-database',
-	},
-	{
-		skillName: 'tailwindcss',
-		fontAwesomeClassname: 'fas fa-tailwind',
-	},
-];
-
 const educationInfo = {
 	display: true, // Set false to hide this section, defaults to true
 	schools: [
@@ -107,7 +64,6 @@ const workExperience = {
 const contents = {
 	content,
 	socialMediaLinks,
-	softwareSkills,
 	educationInfo,
 	workExperience,
 };

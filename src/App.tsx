@@ -1,5 +1,5 @@
-import Header from './components/Header';
-import MKV from './components/MKV';
+// import Header from './components/Header';
+// import MKV from './components/MKV';
 import ParticleContainer from './components/ParticleContainer';
 import Socials from './components/Socials';
 import SoftwareSkills from './components/SoftwareSkills';
