@@ -15,11 +15,11 @@ import {
 
 const SoftwareSkills: React.FC = () => {
 	return (
-		<section className="mt-16 lg:mt-24">
+		<section className="mt-10 lg:mt-24">
 			<h2 className="text-sky-300 text-lg mb-7 lg:text-center">
 				Technologies that I use
 			</h2>
-			<ul className="flex items-center flex-wrap lg:justify-center gap-4 lg:gap-9 ">
+			<ul className="flex items-center flex-wrap lg:justify-center gap-6 lg:gap-9 ">
 				<li>
 					<AiOutlineHtml5
 						size={45}

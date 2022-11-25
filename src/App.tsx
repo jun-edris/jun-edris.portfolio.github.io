@@ -17,9 +17,11 @@ const App = () => {
 				<div className="lg:pt-10">
 					<div className="my-auto flex items-center justify-between py-6 lg:py-0">
 						<div className="container lg:mx-auto grow px-6 lg:px-28">
-							<h1 className="text-white py-[2px] my-[8px]">header</h1>
+							<a href="/">
+								<img src="./Logo.svg" alt="Logo" className="w-[35px]" />
+							</a>
 						</div>
-						<div className="fixed left-auto right-0 hidden xl:flex items-center m-0 p-0 gap-5 after:content-[''] after:block after:w-[50px] after:h-[1px] after:mx-auto after:my-0 after:bg-white text-white">
+						<div className="fixed left-auto z-[50] right-0 hidden xl:flex items-center m-0 p-0 gap-5 after:content-[''] after:block after:w-[50px] after:h-[1px] after:mx-auto after:my-0 after:bg-white text-white">
 							<a
 								href="./Junaire Edris Buico_CV.pdf"
 								target="__blank"

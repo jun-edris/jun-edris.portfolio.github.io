@@ -10,7 +10,7 @@ const About = (props: Props) => {
 				<h2 className="text-white text-4xl lg:text-6xl font-bold mb-3 text-wrap">
 					About Me
 				</h2>
-				<p className=" text-wrap text-gray-400 my-5">
+				<p className=" text-wrap text-gray-400 my-5 text-sm sm:text-base">
 					Hello! My name is{' '}
 					<strong className="text-sky-300">Junaire Edris</strong> and I love
 					creating things on the internet. My forte is web development, I didn't
@@ -22,7 +22,7 @@ const About = (props: Props) => {
 					<strong className="text-sky-300">React</strong> and it's fundamentals
 					and it was the best journey that I had throughout my learning process.
 				</p>
-				<p className="text-wrap text-gray-400 my-5">
+				<p className="text-wrap text-gray-400 my-5 text-sm sm:text-base">
 					Today, gratefully I'm working as a{' '}
 					<strong className="text-sky-300">Web Designer</strong> at a BPO
 					company. for me to learn more about business type of websites and also
