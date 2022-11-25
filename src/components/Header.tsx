@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faPhone, faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import contents from './../lib/content';
 
 const Header: React.FC = () => {
@@ -13,26 +13,26 @@ const Header: React.FC = () => {
 
 	return (
 		<>
-			<div className="relative">
+			<div className="relative z-[5]">
 				{/* show only on tablet and desktop */}
 				<div className="container mx-auto px-7 xl:px-4 justify-between py-4 hidden xl:flex text-white">
 					<div>{socialContent.gmail}</div>
 					<div className="flex gap-x-4">
 						<span>
-							<a href={socialContent.github.url} target="__blank">
+							{/* <a href={socialContent.github.url} target="__blank">
 								<FontAwesomeIcon icon={socialContent.github.icon} size="xl" />
-							</a>
+							</a> */}
 						</span>
 						<span>
-							<a href={socialContent.linkedin.url} target="__blank">
+							{/* <a href={socialContent.linkedin.url} target="__blank">
 								<FontAwesomeIcon icon={socialContent.linkedin.icon} size="xl" />
-							</a>
+							</a> */}
 						</span>
 					</div>
 				</div>
-				<div className="xl:container mx-auto px-4 py-10 xl:flex items-center justify-between bg-white xl:bg-none xl:h-[90px]">
+				<div className="xl:container mx-auto px-4 py-10 xl:flex items-center justify-between bg-white xl:bg-transparent xl:bg-none xl:h-[90px]">
 					<div className="flex justify-between flex-1">
-						<div className="xl:hidden">
+						{/* <div className="xl:hidden">
 							<button
 								onClick={handleChange}
 								className="transition-all ease-in duration-300s"
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
 							<a href="tel:+63 915 846 3439">
 								<FontAwesomeIcon icon={faPhone} />
 							</a>
-						</div>
+						</div> */}
 					</div>
 					{/* show only on tablet and desktop */}
 					<div
@@ -66,12 +66,12 @@ const Header: React.FC = () => {
 								<li className="">
 									<a
 										href="#aboutMe"
-										className="hover:border-4 border-4 border-white relative z-[100] hover:border-black px-3 py-2 bg-white after:content-[''] after:hover:border-4 after:z-[-1] after:border-grey-400 after:px-12 after:w-full after:py-5 after:absolute after:top-[-1px] after:left-3 transition ease-in duration-75"
+										className="text-white hover:border-4 border-4 border-transparent relative z-[100] hover:border-white px-3 py-2  after:content-[''] after:hover:border-4 after:z-[-1] after:border-grey-400 after:px-12 after:w-full after:py-5 after:absolute after:top-[-1px] after:left-3 transition ease-in duration-75"
 									>
 										About Me
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a
 										href="#projects"
 										className="hover:border-4 border-4 border-white relative z-[100] hover:border-black px-3 py-2 bg-white after:content-[''] after:hover:border-4 after:z-[-1] after:border-grey-400 after:px-12 after:w-full after:py-5 after:absolute after:top-[-1px] after:left-3 transition ease-in duration-75"
@@ -110,7 +110,7 @@ const Header: React.FC = () => {
 									>
 										Contact Me
 									</a>
-								</li>
+								</li> */}
 							</ul>
 						</nav>
 						<div className="hidden xl:block xl:ml-10">
@@ -122,7 +122,7 @@ const Header: React.FC = () => {
 							</a>
 						</div>
 						<div className="pl-5 pt-3 flex xl:hidden gap-x-4">
-							<span>
+							{/* <span>
 								<a href={socialContent.github.url} target="__blank">
 									<FontAwesomeIcon icon={socialContent.github.icon} size="2x" />
 								</a>
@@ -134,7 +134,7 @@ const Header: React.FC = () => {
 										size="2x"
 									/>
 								</a>
-							</span>
+							</span> */}
 						</div>
 					</div>
 				</div>

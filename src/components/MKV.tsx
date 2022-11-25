@@ -1,7 +1,7 @@
 const MKV: React.FC = () => {
 	return (
-		<div className="xl:py-[200px] py-[90px] xl:container px-4 mx-auto xl:px-0 w-full">
-			<div>
+		<div className="xl:py-[200px] py-[90px] xl:container px-4 mx-auto xl:px-0">
+			<div className="relative z-[2]">
 				<span className="text-white text-lg mb-2 block">Web Developer</span>
 				<h1 className="text-white text-5xl font-black mb-3 xl:w-[500px] text-wrap">
 					Need help to connect to tech?
@@ -11,14 +11,14 @@ const MKV: React.FC = () => {
 					<a
 						href="tel:+63 915 846 3439"
 						target="__blank"
-						className="border-4 border-white py-3 px-5 text-white hover:text-black hover:bg-white transition ease-in duration-75 "
+						className="border-4 border-white py-3 px-5 text-white bg-slate-800 hover:text-black hover:bg-white transition ease-in duration-75"
 					>
 						Call Me Now
 					</a>
 					<a
 						href="./Junaire Edris Buico_CV.pdf"
 						target="__blank"
-						className="border-4 border-white py-3 px-5 text-white hover:text-black hover:bg-white transition ease-in duration-75"
+						className="border-4 border-white py-3 px-5 bg-slate-800 text-white hover:text-black hover:bg-white transition ease-in duration-75"
 					>
 						Download My Resume
 					</a>

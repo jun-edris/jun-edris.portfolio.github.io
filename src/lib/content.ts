@@ -1,12 +1,13 @@
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { CiLinkedin } from 'react-icons/ci';
+import { FiGithub } from 'react-icons/fi';
 
 const content = {};
 
 const socialMediaLinks = {
-	github: { url: 'https://github.com/jun-edris', icon: faGithub },
+	github: { url: 'https://github.com/jun-edris', Icon: FiGithub },
 	linkedin: {
 		url: 'https://www.linkedin.com/in/junaire-edris-buico-33b93a205/',
-		icon: faLinkedin,
+		Icon: CiLinkedin,
 	},
 	gmail: 'juned.buico@gmail.com',
 	display: true, // Set true to display this section, defaults to false
