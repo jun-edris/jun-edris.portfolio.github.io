@@ -1,4 +1,3 @@
-import React from 'react';
 import contents from '../lib/content';
 
 type Props = {};
@@ -23,7 +22,7 @@ const Socials = (props: Props) => {
 				</li>
 				<li>
 					<a
-						href={socialContent.github.url}
+						href={socialContent.linkedin.url}
 						target="__blank"
 						className="transition hover:-translate-y-1 inline-block duration-300 hover:text-sky-300"
 					>
