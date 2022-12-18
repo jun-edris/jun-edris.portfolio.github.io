@@ -1,9 +1,9 @@
-// import Header from './components/Header';
-// import MKV from './components/MKV';
 import About from './components/About';
 import Education from './components/Education';
+import Footer from './components/Footer';
 import MKV from './components/MKV';
 import ParticleContainer from './components/ParticleContainer';
+import Projects from './components/Projects';
 import Socials from './components/Socials';
 import SoftwareSkills from './components/SoftwareSkills';
 import Work from './components/Work';
@@ -34,18 +34,16 @@ const App = () => {
 				</div>
 			</header>
 			<Socials />
-			<main className="xl:container lg:mx-auto z-[10] px-6 md:px-8 lg:px-28 relative ">
+			<main className="xl:container lg:mx-auto z-[10] px-6 md:px-8 lg:px-28 relative">
 				<MKV />
 				<About />
 				<SoftwareSkills />
 
 				<Education />
 				<Work />
-				<section className="mt-56 lg:mt-96 h-[900px]">
-					<h2 className="text-white text-4xl font-semibold">My Works</h2>
-					<div></div>
-				</section>
+				<Projects />
 			</main>
+			<Footer />
 		</div>
 	);
 };
