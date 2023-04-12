@@ -24,7 +24,7 @@ const App = () => {
 						<div className="fixed left-auto z-[50] right-0 hidden xl:flex items-center m-0 p-0 gap-5 after:content-[''] after:block after:w-[50px] after:h-[1px] after:mx-auto after:my-0 after:bg-white text-white">
 							<a
 								href="./Junaire Edris Buico_CV.pdf"
-								target="__blank"
+								download="Junaire Edris Buico_CV.pdf"
 								className="block border border-white py-3 px-5 bg-slate-900 text-white hover:text-black hover:bg-white transition ease-in duration-75"
 							>
 								Download My Resume
