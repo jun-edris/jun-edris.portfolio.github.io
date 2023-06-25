@@ -89,9 +89,10 @@ const content = {
 				'ReactJs',
 				'MongoDB',
 				'MaterialUI',
-				'Express',
+				'ExpressJs',
 				'Render',
 				'PusherJs',
+				'Axios',
 				'JWT Authentication'
 			],
 		},
@@ -103,7 +104,20 @@ const content = {
 			techUsed: [
 				'ReactJs',
 				'TailwindCSS',
+				'OpenWeatherApp API',
 				'Vercel',
+			],
+		}, {
+			name: 'Pokedex',
+			desc: 'A side project web app where I practiced the PokeAPI. Getting the pokemons, filtering by type, and search. All features done by using React Query.',
+			link: 'https://pokedex-zone.vercel.app/',
+			img: 'project3.png',
+			techUsed: [
+				'Vite - React',
+				'TailwindCSS',
+				'React Query',
+				'Axios',
+				'PokeAPI'
 			],
 		}
 	]
