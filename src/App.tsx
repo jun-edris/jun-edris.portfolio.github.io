@@ -1,51 +1,53 @@
-import About from './components/About';
-import Education from './components/Education';
-import Footer from './components/Footer';
-import MKV from './components/MKV';
-import ParticleContainer from './components/ParticleContainer';
-import Projects from './components/Projects';
-import Socials from './components/Socials';
-import SoftwareSkills from './components/SoftwareSkills';
-import Work from './components/Work';
+import About from "./components/About";
+import Education from "./components/Education";
+import Footer from "./components/Footer";
+import MKV from "./components/MKV";
+import ParticleContainer from "./components/ParticleContainer";
+import Projects from "./components/Projects";
+import Socials from "./components/Socials";
+import SoftwareSkills from "./components/SoftwareSkills";
+import Work from "./components/Work";
+import content from "./lib/content";
 
 const App = () => {
-	return (
-		<div className="grid w-full bg-slate-900 h-full box-border relative pb-10">
-			<ParticleContainer />
+  const { logo, info } = content;
+  return (
+    <div className="grid w-full bg-slate-900 h-full box-border relative pb-10">
+      <ParticleContainer />
 
-			<header className=" relative ">
-				<div className="lg:pt-10">
-					<div className="my-auto flex items-center justify-between py-6 lg:py-0">
-						<div className="container lg:mx-auto grow px-6 lg:px-28">
-							<a href="/">
-								<img src="./Logo.svg" alt="Logo" className="w-[35px]" />
-							</a>
-						</div>
-						<div className="fixed left-auto z-[50] right-0 hidden xl:flex items-center m-0 p-0 gap-5 after:content-[''] after:block after:w-[50px] after:h-[1px] after:mx-auto after:my-0 after:bg-white text-white">
-							<a
-								href="./Junaire Edris Buico_CV.pdf"
-								download="Junaire Edris Buico_CV.pdf"
-								className="block border border-white py-3 px-5 bg-slate-900 text-white hover:text-black hover:bg-white transition ease-in duration-75"
-							>
-								Download My Resume
-							</a>
-						</div>
-					</div>
-				</div>
-			</header>
-			<Socials />
-			<main className="xl:container lg:mx-auto z-[10] px-6 md:px-8 lg:px-28 relative">
-				<MKV />
-				<About />
-				<SoftwareSkills />
+      <header className=" relative ">
+        <div className="lg:pt-10">
+          <div className="my-auto flex items-center justify-between py-6 lg:py-0">
+            <div className="container lg:mx-auto grow px-6 lg:px-28">
+              <a href="/">
+                <img src={logo} alt="Logo" className="w-[35px]" />
+              </a>
+            </div>
+            <div className="fixed left-auto z-[50] right-0 hidden xl:flex items-center m-0 p-0 gap-5 after:content-[''] after:block after:w-[50px] after:h-[1px] after:mx-auto after:my-0 after:bg-white text-white">
+              <a
+                href={`/${info.resume}`}
+                download={info.resume}
+                className="block border border-white py-3 px-5 bg-slate-900 text-white hover:text-black hover:bg-white transition ease-in duration-75"
+              >
+                Download My Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <Socials />
+      <main className="xl:container lg:mx-auto z-[10] px-6 md:px-8 lg:px-28 relative">
+        <MKV />
+        <About />
+        <SoftwareSkills />
 
-				<Education />
-				<Work />
-				<Projects />
-			</main>
-			<Footer />
-		</div>
-	);
+        <Education />
+        <Work />
+        <Projects />
+      </main>
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
