@@ -44,7 +44,7 @@ const content = {
 		schools: [
 			{
 				schoolName: 'Bohol Island State University - Balilihan Campus',
-				logo: '/BISU-LOGO.png',
+				logo: 'BISU-LOGO.png',
 				course: 'Bachelor of Science in Information Technology',
 				yearsStudied: 'June 2018 - July 2022',
 				achievements: ['Special Recognition in Campus Website Development', 'Proficient Student Awardee in Web Development']
