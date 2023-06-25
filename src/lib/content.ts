@@ -23,7 +23,7 @@ const content = {
         building MERN stack web apps. Currently, I'm working as a Web Designer
         to gain experience in Frontend.`,
 	},
-	logo: '/Logo.svg',
+	logo: 'Logo.svg',
 	info: {
 		introduction: ``,
 		name: 'Junaire Edris',
