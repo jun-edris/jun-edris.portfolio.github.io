@@ -19,7 +19,7 @@ const MKV: React.FC = () => {
           Call Me
         </a>
         <a
-          href={`/${info.resume}`}
+          href={`${info.resume}`}
           download={info.resume}
           className="block xl:hidden border border-white py-2 px-3 md:py-3 md:px-5 bg-slate-900 text-white hover:text-black hover:bg-white transition ease-in duration-75"
         >
