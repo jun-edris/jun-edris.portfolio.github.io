@@ -19,7 +19,7 @@ const App = () => {
         <div className="lg:pt-10">
           <div className="my-auto flex items-center justify-between py-6 lg:py-0">
             <div className="container lg:mx-auto grow px-6 lg:px-28">
-              <a href="/">
+              <a href="/portfolio/">
                 <img src={logo} alt="Logo" className="w-[35px]" />
               </a>
             </div>
