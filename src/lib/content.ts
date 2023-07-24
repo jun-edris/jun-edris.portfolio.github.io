@@ -29,7 +29,7 @@ const content = {
 		name: 'Junaire Edris',
 		skills: [{ Icon: AiOutlineHtml5},{ Icon: DiCss3Full},{ Icon: SiJavascript},{ Icon: SiTypescript},{ Icon: SiPhp},{ Icon: FaReact},{ Icon: FaNodeJs},{ Icon: SiMongodb},{ Icon: SiExpress},{ Icon: SiMaterialui},{ Icon: SiTailwindcss},{ Icon: SiBootstrap},{ Icon: SiPusher}],
 		profession: 'Web Designer',
-		resume: 'Junaire Edris Buico_CV.pdf'
+		resume: 'Junaire Edris Buico-CV.pdf'
 	},
 	socialMediaLinks: {
 		github: { url: 'https://github.com/jun-edris', Icon: FiGithub },
