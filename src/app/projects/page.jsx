@@ -76,7 +76,7 @@ const Projects = () => {
             </Button>
           </Box>
         </Box>
-        <Box className="group/project5 w-auto flex-1 hover:flex-[3] transition-all duration-700 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../mis.webp')] p-0 md:p-0">
+        <Box className="group/project5 w-auto flex-1 hover:flex-[3] transition-all duration-700 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/mis.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
