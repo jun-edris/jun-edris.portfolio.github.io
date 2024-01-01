@@ -135,7 +135,7 @@ export default function Home() {
       </Box>
 
       <Box
-        className="relative col-span-full lg:col-span-2 md:col-span-2 row-start-2 row-end-2 lg:row-end-5 xl:row-end-4 xl:col-span-1 bg-cover bg-center md:bg-top bg-[url('/me.webp')] bg-no-repeat h-[500px] md:h-full p-0 md:p-0"
+        className="relative col-span-full lg:col-span-2 md:col-span-2 row-start-2 row-end-2 lg:row-end-5 xl:row-end-4 xl:col-span-1 bg-cover bg-center md:bg-top bg-[url('/public/me.webp')] bg-no-repeat h-[500px] md:h-full p-0 md:p-0"
         glass={false}
       >
         <Box

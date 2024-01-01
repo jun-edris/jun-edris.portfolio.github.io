@@ -16,7 +16,7 @@ const Projects = () => {
       />
 
       <Box className="col-span-full flex items-stretch justify-stretch gap-4 h-[500px] md:p-0 border-0 box-border w-full">
-        <Box className="group/project1 w-full flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/pokemon.webp')] p-0 md:p-0">
+        <Box className="group/project1 w-full flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/public/pokemon.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
@@ -31,7 +31,7 @@ const Projects = () => {
             </Button>
           </Box>
         </Box>
-        <Box className="group/project2 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/mis.webp')] p-0 md:p-0">
+        <Box className="group/project2 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/public/mis.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
@@ -46,7 +46,7 @@ const Projects = () => {
             </Button>
           </Box>
         </Box>
-        <Box className="group/project3 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/mis.webp')] p-0 md:p-0">
+        <Box className="group/project3 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/public/mis.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
@@ -61,7 +61,7 @@ const Projects = () => {
             </Button>
           </Box>
         </Box>
-        <Box className="group/project4 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/mis.webp')] p-0 md:p-0">
+        <Box className="group/project4 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('/public/mis.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
