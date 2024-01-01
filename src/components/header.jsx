@@ -6,7 +6,7 @@ const Header = () => {
     <header className=" flex justify-between items-center">
       <Link href="/">
         <Image
-          src="/logo.svg"
+          src="./../../public/logo.svg"
           alt="Junaire Edris Buico"
           width={55}
           height={55}
