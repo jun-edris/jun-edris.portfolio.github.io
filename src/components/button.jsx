@@ -19,7 +19,7 @@ const Button = ({
         )}
         {...rest}
       >
-        {children}
+        <span>{children}</span>
       </Link>
     );
   if (iconB) {
