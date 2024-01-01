@@ -18,7 +18,7 @@ const Box = ({ video, glass = true, children, className }) => {
           loop
           className="absolute h-full w-full object-cover left-0 z-[1] top-0"
         >
-          <source src="/public/projects.webm" type="video/webm" />
+          <source src="./../../public/projects.webm" type="video/webm" />
         </video>
       )}
 
@@ -29,7 +29,7 @@ const Box = ({ video, glass = true, children, className }) => {
           loop
           className="absolute h-full w-full object-cover left-0 z-[1] top-0"
         >
-          <source src="/public/glitch1.webm" type="video/webm" />
+          <source src="./../../public/glitch1.webm" type="video/webm" />
         </video>
       )}
       {children}
