@@ -46,7 +46,7 @@ const Projects = () => {
             </Button>
           </Box>
         </Box>
-        <Box className="group/project3 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/mis.webp')] p-0 md:p-0">
+        <Box className="group/project3 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/weather.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
@@ -61,29 +61,14 @@ const Projects = () => {
             </Button>
           </Box>
         </Box>
-        <Box className="group/project4 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/mis.webp')] p-0 md:p-0">
+        <Box className="group/project4 w-auto flex-1 hover:flex-[3] transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/loopstd.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
           >
             <div className="w-full flex items-center justify-center group-hover/project4:visible invisible transition-[visible] duration-500">
               <h5 className="text-black text-3xl font-black group-hover/project4:visible w-full">
-                Pokemon
-              </h5>
-            </div>
-            <Button iconB className="p-4">
-              <BsArrowUpRight size={28} />
-            </Button>
-          </Box>
-        </Box>
-        <Box className="group/project5 w-auto flex-1 hover:flex-[3] transition-all duration-700 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/mis.webp')] p-0 md:p-0">
-          <Box
-            glass={false}
-            className="w-full rounded-t-none flex flex-row items-center h-[100px] border-0 transition-all duration-500"
-          >
-            <div className="w-full flex items-center justify-center group-hover/project5:visible invisible transition-[visible] duration-500">
-              <h5 className="text-black text-3xl font-black group-hover/project5:visible w-full">
-                Pokemon
+                Loopstudios
               </h5>
             </div>
             <Button iconB className="p-4">
