@@ -45,7 +45,7 @@ export default function Home() {
         </h1>
       </Box>
 
-      <Box className="col-span-full md:col-span-2 lg:col-span-2 xl:col-span-1 xl:row-span-3 xl:col-start-4 xl:col-end-5 flex flex-col justify-between h-[600px] md:h-full">
+      <Box className="col-span-full md:col-span-2 lg:col-span-2 xl:col-span-1 xl:row-span-3 xl:col-start-4 xl:col-end-5 flex flex-col justify-between h-full sm:h-[600px] md:h-full">
         <div className="">
           <div className="">
             <span className=" block font-medium">Languages I use</span>
