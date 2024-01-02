@@ -22,7 +22,7 @@ const Box = ({ video, glass = true, children, className }) => {
           autoPlay
           muted
           loop
-          playsinline
+          playsInline
           className="invisible lg:visible absolute h-full w-full object-cover left-0 z-[1] top-0"
         >
           <source src="projects.webm" type="video/webm" />
@@ -34,7 +34,7 @@ const Box = ({ video, glass = true, children, className }) => {
           autoPlay
           muted
           loop
-          playsinline
+          playsInline
           className="invisible lg:visible absolute h-full w-full object-cover left-0 z-[1] top-0"
         >
           <source src="glitch1.webm" type="video/webm" />
