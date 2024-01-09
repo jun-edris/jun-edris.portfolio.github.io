@@ -59,7 +59,7 @@ const About = () => {
                   Web Designer - Analyst
                 </span>
                 <span className="block text-sm text-gray-300 text-center">
-                  June 2018 &ndash; July 2022
+                  June 2012 &ndash; Present
                 </span>
               </div>
             </Box>
@@ -111,7 +111,7 @@ const About = () => {
               Bachelor of Science in Information Technology
             </span>
             <span className="block text-sm text-gray-300">
-              June 2022 &ndash; Present
+              June 2018 &ndash; June 2022
             </span>
           </div>
           <div className="mt-8">
