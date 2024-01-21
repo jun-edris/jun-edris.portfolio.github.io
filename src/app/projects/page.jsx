@@ -29,7 +29,11 @@ const Projects = () => {
                 Pokemon
               </h5>
             </div>
-            <Button iconB className="p-3 lg:p-4 place-self-end">
+            <Button
+              iconB
+              className="p-3 lg:p-4 place-self-end"
+              href="https://pokedex-zone.vercel.app/"
+            >
               <BsArrowUpRight size={28} />
             </Button>
           </Box>
@@ -44,7 +48,11 @@ const Projects = () => {
                 MIS Helpdesk
               </h5>
             </div>
-            <Button iconB className="p-3 lg:p-4 place-self-end">
+            <Button
+              iconB
+              className="p-3 lg:p-4 place-self-end"
+              href="https://mis-helpline.onrender.com/"
+            >
               <BsArrowUpRight size={28} />
             </Button>
           </Box>
@@ -59,22 +67,30 @@ const Projects = () => {
                 Weather Web App
               </h5>
             </div>
-            <Button iconB className="p-3 lg:p-4 place-self-end">
+            <Button
+              iconB
+              className="p-3 lg:p-4 place-self-end"
+              href="https://weather-app-jun-edris.vercel.app/"
+            >
               <BsArrowUpRight size={28} />
             </Button>
           </Box>
         </Box>
-        <Box className="h-[220px] col-span-full md:col-span-1 xl:h-full group/project4 transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/loopstd.webp')] p-0 md:p-0">
+        <Box className="h-[220px] col-span-full md:col-span-1 xl:h-full group/project4 transition-all duration-1000 flex items-end justify-end bg-cover bg-center bg-no-repeat bg-[url('./../../public/formbuilder.webp')] p-0 md:p-0">
           <Box
             glass={false}
             className="w-full h-full rounded-xl lg:rounded-t-none flex flex-row justify-end items-center group-hover/project4:bg-gradient-to-r from-white/50 via-slate-200/50 to-slate-400/50 lg:h-[100px] border-0 transition-all duration-500"
           >
             <div className="w-full flex items-center justify-center group-hover/project4:visible invisible transition-[visible] duration-500">
               <h5 className="text-black text-2xl font-black group-hover/project3:visible w-full">
-                Loopstudios
+                Form Builder
               </h5>
             </div>
-            <Button iconB className="p-3 lg:p-4 place-self-end">
+            <Button
+              iconB
+              className="p-3 lg:p-4 place-self-end"
+              href="https://form-builder-jun-edris.vercel.app/"
+            >
               <BsArrowUpRight size={28} />
             </Button>
           </Box>
