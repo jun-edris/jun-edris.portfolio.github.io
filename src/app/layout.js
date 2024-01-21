@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Junaire Edris Buico Portfolio | Bohol, PH",
   description:
-    "Hi, I'm Junaire Edris Buico. Are you in need of web developer? Reach me out (+63) 9158 463 439",
+    "Hi, I'm Junaire Edris Buico. Are you in need of a web developer? Reach me out (+63) 9158 463 439",
 };
 
 export default function RootLayout({ children }) {
