@@ -33,6 +33,7 @@ const Projects = () => {
               iconB
               className="p-3 lg:p-4 place-self-end"
               href="https://pokedex-zone.vercel.app/"
+              target="_blank"
             >
               <BsArrowUpRight size={28} />
             </Button>
@@ -52,6 +53,7 @@ const Projects = () => {
               iconB
               className="p-3 lg:p-4 place-self-end"
               href="https://mis-helpline.onrender.com/"
+              target="_blank"
             >
               <BsArrowUpRight size={28} />
             </Button>
@@ -71,6 +73,7 @@ const Projects = () => {
               iconB
               className="p-3 lg:p-4 place-self-end"
               href="https://weather-app-jun-edris.vercel.app/"
+              target="_blank"
             >
               <BsArrowUpRight size={28} />
             </Button>
@@ -90,6 +93,7 @@ const Projects = () => {
               iconB
               className="p-3 lg:p-4 place-self-end"
               href="https://form-builder-jun-edris.vercel.app/"
+              target="_blank"
             >
               <BsArrowUpRight size={28} />
             </Button>
